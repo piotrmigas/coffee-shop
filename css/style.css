@@ -20,6 +20,7 @@ body {
   background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
     url("../img/bodyBcg.jpeg");
   color: var(--black);
+  display: none;
 }
 
 .bell-fonts {

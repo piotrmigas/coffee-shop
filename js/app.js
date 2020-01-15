@@ -2,10 +2,9 @@ eventListeners();
 
 function eventListeners() {
   const ui = new UI();
-  const video = document.querySelector(".video__item");
 
-  video.addEventListener("canplaythrough", function() {
-    this.play();
+  window.addEventListener("load", function() {
+    document.querySelector("body").style.display = "block";
   });
 
   document.querySelector(".navBtn").addEventListener("click", function() {
