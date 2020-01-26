@@ -1,11 +1,11 @@
+window.addEventListener("load", function() {
+  document.body.classList.add("all-loaded");
+});
+
 eventListeners();
 
 function eventListeners() {
   const ui = new UI();
-
-  window.addEventListener("load", function() {
-    document.querySelector("body").style.display = "block";
-  });
 
   document.querySelector(".navBtn").addEventListener("click", function() {
     ui.showNav();
